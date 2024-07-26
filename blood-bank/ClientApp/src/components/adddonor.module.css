@@ -1,0 +1,141 @@
+ .container {
+    max-width: 700px;
+    width: 100%;
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 5px;
+    background: linear-gradient(135deg, #c7c5c5, #b6acac);
+    margin: 0 auto;
+}
+
+.container .containertitle {
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.container form .formrow {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.container .inputbox {
+    width: 48%;
+    margin-bottom: 15px;
+}
+
+.container label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.container input[type="text"],
+.container input[type="date"],
+.container input[type="location"],
+.container input[type="url"],
+.container select {
+    width: 100%;
+    height: 35px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+    box-sizing: border-box;
+}
+
+.container .btn {
+    width: 140px;
+    height: 50px;
+    background: #540505;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    margin-left: 250px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+.container .btn span {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: top 0.5s;
+    position: absolute;
+}
+
+.container .btn .btntextone {
+    top: 50%;
+    left: 0;
+    width: 100%;
+    transform: translateY(-50%);
+}
+
+.container .btn .btntexttwo {
+    width: 100%;
+    top: 150%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.container .btn:hover .btntextone {
+    top: -100%;
+}
+
+.container .btn:hover .btntexttwo {
+    top: 50%;
+    }
+   
+
+/* DonorList.css */
+.donorcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  
+  .donorbox {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    width: 300px;
+  }
+  
+  .donorinfo {
+    margin-bottom: 8px;
+  }
+  
+  .donorbuttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+  }
+  
+  .donorbuttons button {
+    background-color: #273646;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width:100px;
+  height: 50px;
+  margin-right: 8px; 
+  }
+  
+  .donorbuttons button:hover {
+    background-color: #0056b3;
+  }
+
+
+
+
+

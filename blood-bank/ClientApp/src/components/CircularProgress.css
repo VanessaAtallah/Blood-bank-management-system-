@@ -1,0 +1,54 @@
+.Progresses {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.circle-container {
+  display: flex;
+}
+
+.progress-container {
+  margin-right: 20px; /* Adjust spacing between circles */
+}
+
+.box-container {
+  width: 150px;
+  height: 100px;
+  border: 1px solid #560707; /* border around the box */
+  padding: 10px;
+  text-align: center;
+  margin-top: 20px; /* Adjust spacing between boxes */
+  color:#560707;
+  font-weight: bold;
+  
+}
+
+.box-label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.box-value {
+  font-size: 20px;
+}
+
+.circular-progress {
+  width: 100px;
+  height: 100px;
+}
+
+.circle-label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.progress {
+  stroke: #ff0000;
+  transition: stroke-dashoffset 0.5s;
+}
+
+.text {
+  font-size: 20px;
+  fill: #ffffff; /* Set the text color to black */
+}
